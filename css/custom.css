@@ -1,0 +1,31 @@
+/* Your custom css code goes here */
+/* .mentor img{
+    width: 80%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+} */
+.mentor{
+    display: block;
+    margin: auto
+}
+.mentor img{
+    -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(90%);
+    width: 23.7%;
+    display: inline-block;
+    margin: 5px;
+}
+.mentor img:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: 0.4s all;
+}
+.mentor h2{
+    text-align: center;
+}
+/* .mentor p{
+    margin: 0;
+    text-align: center;
+} */
